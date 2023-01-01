@@ -13,7 +13,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     // DANGER: do not verify email password on the client side
     // step-4: verify email and password
-    if (email === 'abc@gmail. com' && password === 'secret') {
+    if (email === 'abc@gmail.com' && password === 'secret') {
         window.location.href = 'bank.html'; 
     }
     else {
